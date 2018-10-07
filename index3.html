@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Portofolio</title>
+</head>
+<link rel="stylesheet" href="assets/css/index-3.css">
+<link rel="stylesheet" href="assets/css/font-awesome.css">
+<body>
+	<div id="content">
+		<div id="profile">
+			<img src="images/auth/me.png" alt="">
+			<h1>Ahmad Hanafi</h1>
+			<h3>
+				Web Developer | Programmer | Freelancer | Student
+			</h3>
+			<p class="quotes">
+				~ "Share what can you share now" ~
+			</p>
+		</div>
+		<div id="contact">
+			<ul id="logo">
+				<li data-index="1">
+					<i class="fa fa-envelope-o" title="E-mail"></i>
+				</li>
+				<li data-index="2">
+					<i class="fa fa-whatsapp" title="Whatsapp"></i>
+				</li>
+				<li data-index="3">
+					<i class="fa fa-bank" title="Campus"></i>
+				</li>
+				<li data-index="4">
+					<i class="fa fa-facebook-official" title="Facebook"></i>
+				</li>
+				<li data-index="5">
+					<i class="fa fa-github" title="Github"></i>
+				</li>
+				<li data-index="6">
+					<i class="fa fa-globe" title="Website"></i>
+				</li>
+			</ul>
+			<ul id="logo-text">
+				<li>
+					<a href="mailto:Contaminated007@gmail.com">Contaminated007@gmail.com</a>
+				</li>
+				<li>
+					<span>+62 838 2405 5826</span>
+				</li>
+				<li>
+					<a href="http://smtikcic.ac.id">STMIK CIC Cirebon</a>
+				</li>
+				<li>
+					<a href="http://fb.com/ahmaddhanavie">Ahmad Hanafi</a>
+				</li>
+				<li>
+					<a href="http://github.com/ahmaddhanavie">http://github.com/ahmaddhanavie</a>
+				</li>
+				<li>
+					<a href="http://hannavie.hol.es">http://hannavie.hol.es</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="assets/js/jquery.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("#logo li").on('mouseenter', function() {
+				let index = $(this).attr('data-index');
+				$("#logo-text > li:nth-child("+index+")").css({
+					'transition': '0.2s',
+					'display':'block',
+				});
+			});
+			$("#logo li").on('mouseleave', function() {
+				let index = $(this).attr('data-index');
+				$("#logo-text > li:nth-child("+index+")").css({
+					'display':'none'
+				});
+			});
+		});
+	</script>
+</body>
+</html>

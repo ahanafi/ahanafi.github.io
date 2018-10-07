@@ -1,0 +1,99 @@
+body{
+	background-image: url('../../images/circuit-one.png');
+	background-size: cover;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	font-family: Roboto;
+}
+
+*{
+	color: #eee;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+ul li{
+	list-style: none;
+}
+
+#content{
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 12.5%;
+	padding-left: 10%;
+}
+
+.img{
+	width: 30% !important;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+.img img{
+	border-radius: 50%;
+	width: 55%;
+	border:3px solid #eee;
+	margin-bottom: 15px;
+	box-shadow: 2px 2px 3px #000;
+}
+
+img:hover{
+	cursor: pointer;
+	opacity: 0.6;
+	-webkit-transition: 0.25s;
+	   -moz-transition: 0.25s;
+	    -ms-transition: 0.25s;
+	     -o-transition: 0.25s;
+	        transition: 0.25s;
+}
+
+.quotes{
+	font-style: italic;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.details{
+	padding-left: 30px;
+}
+
+h1{
+	font-size: 36px;
+	padding-bottom: 5px;
+}
+h3{
+	font-weight: normal;
+}
+
+ul.lists {
+	margin-top: 10px;
+}
+ul.lists li{
+	padding:3px;
+}
+
+ul.lists li > i{
+	padding-right: 10px;
+	padding-left: 5px;
+	margin-bottom: 3px;
+}
+
+i.fa{
+	font-size: 18px;
+}
+
+.skill{
+	margin-top: 20px;	
+}
+
+.skill h3{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size: 25px;
+}
+
+.skill p{
+	font-size: italic;
+}

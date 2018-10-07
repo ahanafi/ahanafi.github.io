@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	background-attachment: fixed;
+	background: url('../../images/circuit-two.jpg');
+	background-size: cover;
+	color: #fff;
+	font-family: Roboto;
+	font-weight: normal;
+}
+
+#content{
+	width: 100%;
+	margin:10.5% auto 0;
+	display: block;
+	text-align: center;
+}
+
+#profile img{
+	width: 17%;	
+	border-radius: 50%;
+	border:5px solid #eee;
+	margin-bottom: 15px;
+}
+
+#profile img:hover{
+	cursor: pointer;
+	opacity: 0.65;
+	transition: 0.25s;
+}
+
+.quotes{
+	margin:5px;
+	font-style: italic;
+}
+
+ul li {
+	display: inline-table;
+}
+
+i.fa {
+	color: #eee;
+	font-size: 36px;
+	padding: 10px;
+	display: block;
+}
+
+i.fa:hover{
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+i.fa-envelope-o:hover{color: #F62727;}
+i.fa-whatsapp:hover{color: #1ADC15;}
+i.fa-bank:hover{color: #fff;}
+i.fa-facebook-official:hover{color: #1B49F4;}
+i.fa-github:hover{color: #fff;}
+i.fa-globe:hover{color: #33F658;}
+
+
+#logo-text li{
+	display: none;
+	margin:0 auto;
+	width: 300px;
+	text-align:center;
+	height: 20px;
+	overflow: hidden;
+	padding:2.5px;
+}
+
+a{
+	color: #fff;
+}
