@@ -97,3 +97,17 @@ i.fa{
 .skill p{
 	font-size: italic;
 }
+
+.btn-hire-me{
+	padding:10px 15px;
+	border:3px solid #eee;
+	border-radius: 5px;
+	margin-left: 32px;
+}
+
+.btn-hire-me:hover{
+	background: #fff;
+	color: #333;
+	transition: .75s;
+	font-weight: bold;
+}
